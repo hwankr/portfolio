@@ -21,6 +21,9 @@
   --color-input: var(--input);
   --color-ring: var(--ring);
   --radius-radius: var(--radius);
+  
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-serif: var(--font-playfair), ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
 @layer base {
