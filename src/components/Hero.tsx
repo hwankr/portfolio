@@ -104,7 +104,7 @@ export default function Hero() {
           >
             <Button 
               size="lg" 
-              className="h-12 px-8 rounded-full text-base"
+              className="h-12 px-8 rounded-full text-base transition-transform hover:scale-105 active:scale-95"
               onClick={() => {
                 const element = document.getElementById('projects');
                 element?.scrollIntoView({ behavior: 'smooth' });
@@ -115,7 +115,7 @@ export default function Hero() {
             <Button 
               variant="outline" 
               size="lg" 
-              className="h-12 px-8 rounded-full text-base"
+              className="h-12 px-8 rounded-full text-base transition-transform hover:scale-105 active:scale-95"
               onClick={() => {
                 const element = document.getElementById('contact');
                 element?.scrollIntoView({ behavior: 'smooth' });
