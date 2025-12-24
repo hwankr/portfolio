@@ -102,10 +102,25 @@ export default function Hero() {
             variants={fadeUpVariants}
             className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-4"
           >
-            <Button size="lg" className="h-12 px-8 rounded-full text-base">
+            <Button 
+              size="lg" 
+              className="h-12 px-8 rounded-full text-base"
+              onClick={() => {
+                const element = document.getElementById('projects');
+                element?.scrollIntoView({ behavior: 'smooth' });
+              }}
+            >
               View Projects
             </Button>
-            <Button variant="outline" size="lg" className="h-12 px-8 rounded-full text-base">
+            <Button 
+              variant="outline" 
+              size="lg" 
+              className="h-12 px-8 rounded-full text-base"
+              onClick={() => {
+                const element = document.getElementById('contact');
+                element?.scrollIntoView({ behavior: 'smooth' });
+              }}
+            >
               Contact Me
             </Button>
           </motion.div>
